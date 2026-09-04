@@ -1,0 +1,93 @@
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  header {
+    font-size: 20px;
+  }
+}
+
+html,
+body {
+  min-width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+  line-height: 1.5;
+}
+
+header {
+  font-size: 1.8em;
+  text-align: center;
+  margin: 10px;
+  color: black;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 300px;
+  width: 10vw;
+  height: 100%;
+  border-right: 3px solid #333;
+  background-color: white;
+}
+
+#navbar ul {
+  height: 85%;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#navbar li {
+  position: relative;
+  border-top: 1px solid #333;
+  width: 100%;
+  list-style: none;
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  font-size: 1.35em;
+  color: #1a1919;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+#main-doc {
+  display: inline-block;
+  position: absolute;
+  margin-left: 320px;
+  margin-top: 4vh;
+  overflow-x: hidden;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+section article {
+  color: #1a1919;
+  margin: 20px;
+  font-size: 0.98em;
+}
+
+section li {
+  margin-top: 15px;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  line-height: 2;
+  word-break: normal;
+  word-wrap: normal;
+  background-color: #cecfc1;
+  color: black;
+  padding: 15px;
+  margin: 10px;
+  text-align: left;
+  border-radius: 15px;
+}

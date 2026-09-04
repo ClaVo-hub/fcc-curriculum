@@ -1,0 +1,54 @@
+body {
+  background-color: rgba(3, 112, 3, 0.792);
+  font-size: 1.8rem;
+}
+
+#playing-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex: 0 0 200px;
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
+  padding: 16px 18px;
+  border-radius: 15px;
+  background: #fff;
+}
+
+.left {
+  align-self: flex-start;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  transform: scale(2.5);
+}
+
+.right {
+  align-self: flex-end;
+}
+
+.flipped {
+  transform: rotate(180deg);
+}
+
+.middle-section {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  align-items: center;
+  align-self: center;
+}
+
+.red {
+  color: red;
+}

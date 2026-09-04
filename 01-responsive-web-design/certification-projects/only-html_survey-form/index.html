@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Triptiek Computers Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Triptiek Repairs Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve our computers repair
+      services
+    </p>
+    <form id="survey-form" action="" method="POST">
+      <label id="name-label" for="name">Name</label>
+      <input required id="name" name="name" placeholder="Enter your name" />
+      <br />
+      <label id="email-label" for="email">Email</label>
+      <input
+        required
+        id="email"
+        type="email"
+        name="email"
+        placeholder="Enter you email"
+      />
+      <br />
+      <label id="number-label" for="number">Age (optional)</label>
+      <input
+        id="number"
+        type="number"
+        name="age"
+        min="3"
+        max="10"
+        placeholder="Age"
+      />
+      <br /><br />
+      <p id="service-dropdown">What repair services did we render?</p>
+      <select id="dropdown">
+        <option value="keyboard-replacement">Replaced Keyboard</option>
+        <option value="screen-replaced">Replaced Screen</option>
+        <option value="motherboard">Replaced Motherboard</option>
+        <option selected value="upgrades">Upgraded</option>
+        <option value="other">Other</option>
+      </select>
+      <br /><br />
+      <p id="recommend-radio">
+        Would you recommend Triptiek Repairs to a friend?
+      </p>
+      <input
+        id="absolutely"
+        name="recommend"
+        type="radio"
+        value="absolutely_option"
+      />
+      <label for="absolutely">Absolutely</label>
+      <input id="maybe" name="recommend" type="radio" value="maybe_option" />
+      <label for="maybe">Maybe</label>
+      <input
+        id="not-sure"
+        name="recommend"
+        type="radio"
+        value="not-sure_option"
+      />
+      <label id="not-sure">Not sure</label>
+      <br /><br />
+      <p id="staff-dropdown">
+        How approachable and helpful was the staff member you interacted with?
+      </p>
+      <select id="staff-dropdown">
+        <option value="extremely">Extremely approachable & helpful</option>
+        <option value="very">Very approachable & helpful</option>
+        <option value="somewhat">Somewhat approachable & helpful</option>
+        <option value="not-very">Not very approachable & helpful</option>
+        <option value="not-at-all">Not at all approachable & helpful</option>
+      </select>
+      <br /><br />
+      <p id="improve-checkbox">
+        What would you like to see improved by our service?
+      </p>
+      <input
+        id="friendliness"
+        name="improve"
+        value="be-friendly"
+        type="checkbox"
+      />
+      <label for="friedliness">Friendliness</label>
+      <input
+        id="approach"
+        name="improve"
+        value="approachability"
+        type="checkbox"
+      />
+      <label for="approach">Approachability</label>
+      <input
+        id="feedback"
+        name="improve"
+        value="timely-feedback"
+        type="checkbox"
+      />
+      <label for="feedback">Timely feedback</label>
+      <input id="price" name="improve" value="lower-price" type="checkbox" />
+      <label for="price">Lower Prices</label>
+      <input id="report" name="improve" value="repair-report" type="checkbox" />
+      <label for="report">Detailed Repair Report</label>
+      <br />
+      <label for="other">Other:</label>
+      <input
+        type="text"
+        id="other"
+        name="improve-other"
+        placeholder="Name it: 1 word"
+        maxlenght="22"
+      />
+      <br /><br />
+      <label for="comments" id="comment-p">Any comments or suggestions?</label>
+      <br /><br />
+      <textarea cols="50" rows="10" name="comments" id="comments"> </textarea>
+      <br />
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
