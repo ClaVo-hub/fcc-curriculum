@@ -1,20 +1,20 @@
-# 💻 My freeCodeCamp Journey
+# My freeCodeCamp Journey
 
 Welcome to the central repository tracking my progress through the **freeCodeCamp** curriculum! I am using this space to practice coding daily, build foundational projects, and track my growth as a developer.
 
 ---
 
-## 🎯 Current Focus
+## Current Focus
 
-- 🚀 **Active Course:** JavaScript Algorithms and Data Structures (Beta)
-- 📍 **Current Milestone:** JavaScript Fundamentals Review (Step 20/33)
-- 📅 **Started JS Course:** 01 August 2026
+- **Active Course:** JavaScript Algorithms and Data Structures (Beta)
+- **Current Milestone:** JavaScript Fundamentals Review (Step 20/33)
+- **Started JS Course:** 01 August 2026
 
 ---
 
-## 🎓 Completed Certificates
+## Completed Certificates
 
-### 🎨 1. Responsive Web Design
+### 1. Responsive Web Design
 
 - **Status:** Completed
 - **Completion Date:** June 2026
@@ -30,13 +30,13 @@ Welcome to the central repository tracking my progress through the **freeCodeCam
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 - `01-responsive-web-design/` — Practice labs and final projects for the Web Design certificate.
 - `02-javascript-algorithms-data-structures/` — Daily practice files, step-by-step logic labs, and upcoming JS algorithms.
 
 ---
 
-## 📈 Learning Consistency
+## Learning Consistency
 
 I commit my practice labs and project updates to this repository to maintain a consistent coding habit and visualize my progress. Feel free to explore my daily files to see how my code evolves!
