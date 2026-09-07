@@ -72,7 +72,6 @@ function getPunctuationCount(sentence) {
 
 let punctuationCount = getPunctuationCount("?...!");
 console.log(`The Punctuation Count Total is: ${punctuationCount}`);
-
 function getWordCount(sentence) {
   let count = 0;
   if (sentence.trim() === "") {

@@ -198,7 +198,7 @@ splice() returns [55], an array containing the removed element
 [0] extracts 55 from that array
 That value (55) is assigned back to copyArray[1], completing the swap */
 
-/*============= Filter sort object with bubble sort - new technique ==============*/
+/*============= Filter sort object with bubble sort - technique ==============*/
 /*
 Mission control has alerted you that the list of EVA-eligible astronauts should also be sorted by priority descending. 
 There are a few ways to sort an array - perhaps the most basic is bubble sort.
@@ -221,7 +221,7 @@ for (let i = 0; i < crew.length - 1; i++) {
 }
  */
 
-/* ========= new technique: combine for loop and slice() method to creat chunks of size n from an array ===========*/
+/* ========= technique: combine for loop and slice() method to create chunks of size n from an array ===========*/
 //Mission control has requested a new function for breaking down a crew into chunks of variable sizes.
 /* 
 const result = [];

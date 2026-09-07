@@ -115,7 +115,7 @@ console.log(
 );
 
 /*==============================================
-  Merge to arrays Function 
+  Merge two arrays Function 
 ==============================================*/
 
 function frankenSplice(arr1, arr2, index) {
@@ -128,7 +128,7 @@ function frankenSplice(arr1, arr2, index) {
   return result;
 }
 
-console.log(frankenSplice([1, 2, 3], [4, 5], 1));
+console.log(frankenSplice([1, 2, 3], [4, 5], 1)); // [1, 4, 5, 2, 3]
 console.log(frankenSplice([1, 2], ["a", "b"], 1));
 console.log(
   frankenSplice(
