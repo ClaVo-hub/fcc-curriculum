@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-top: 1.25rem;
+}
+
+.item-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.85rem;
+  border-bottom: 1px solid #ddd;
+  width: 200px;
+}
+
+.filled {
+  color: #d22b2b;
+}
+
+.favorite-icon {
+  font-size: 1.25rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
