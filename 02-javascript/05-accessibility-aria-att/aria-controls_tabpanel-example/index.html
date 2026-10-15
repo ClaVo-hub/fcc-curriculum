@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="device-width=width, initital-scale=1.0" />
+    <title>aria-controls Attribute (example)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div role="tablist">
+      <button
+        role="tab"
+        id="tab1"
+        aria-controls="section1"
+        aria-selected="true"
+      >
+        Tab 1
+      </button>
+      <button
+        role="tab"
+        id="tab2"
+        aria-controls="section2"
+        aria-selected="false"
+      >
+        Tab 2
+      </button>
+      <button
+        role="tab"
+        id="tab3"
+        aria-controls="section3"
+        aria-selected="false"
+      >
+        Tab 3
+      </button>
+    </div>
+
+    <div id="section1" role="tabpanel" aria-labelledby="tab1">
+      Section 1 content
+    </div>
+
+    <div id="section2" role="tabpanel" aria-labelledby="tab2" hidden>
+      Section 2 content
+    </div>
+
+    <div id="section3" role="tabpanel" aria-labelledby="tab3" hidden>
+      Section 3 content
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
