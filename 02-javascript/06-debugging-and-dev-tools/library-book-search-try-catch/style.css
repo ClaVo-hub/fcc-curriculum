@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+input {
+  padding: 0.5rem;
+  width: 200px;
+}
+
+button {
+  margin: 1.25rem;
+  background: linear-gradient(135deg, #4da3ff, #007bff);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+}
+
+button:hover {
+  background: linear-gradient(135deg, #66b3ff, #3399ff);
+  box-shadow: 0 6px 14px rgba(0, 123, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+#statusMessage {
+  margin-top: 1.5rem;
+  font-weight: bold;
+  height: 1.5rem;
+}
