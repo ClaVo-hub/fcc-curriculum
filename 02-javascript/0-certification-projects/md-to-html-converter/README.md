@@ -1,5 +1,7 @@
 # Markdown to HTML Converter
 
+![Markdown to HTML Converter screenshot](screenshot.png)
+
 A live Markdown to HTML converter built with vanilla JavaScript for the freeCodeCamp JavaScript Certification. Type Markdown on the left and see the raw HTML and a rendered preview update as you type.
 
 ## Features
@@ -38,7 +40,7 @@ HTML, CSS (custom properties for theming) and JavaScript (regex, DOM manipulatio
 
 ## Live demo
 
-[Add your GitHub Pages link here]
+[Markdown to HTML Converter](https://clavo-hub.github.io/fcc-curriculum/02-javascript/0-certification-projects/md-to-html-converter/)
 
 ## Credits
 
