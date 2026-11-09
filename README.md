@@ -28,7 +28,7 @@ Welcome to the central repository tracking my progress through the **freeCodeCam
 - [Technical Documentation](01-responsive-web-design/certification-projects/technical-documentation/) – A multi-section, highly structured technical guide.
 - [Product Landing Page](01-responsive-web-design/certification-projects/product-landing-page/) – A clean, accessible page celebrating an inspiring figure using CSS flip card for pricing packages, CSS Flexbox and Grid and some hover effects.
 
-### 2. JavaScript Algorithms and Data Structures
+### 2. JavaScript
 
 - **Status:** 75% Complete
 - **Completion Date:** In progress
@@ -43,7 +43,7 @@ Welcome to the central repository tracking my progress through the **freeCodeCam
 ## Repository Structure
 
 - `01-responsive-web-design/` — Practice labs and final projects for the Web Design certificate.
-- `02-javascript-algorithms-data-structures/` — Daily practice files, step-by-step logic labs, and upcoming JS algorithms.
+- `02-javascript/` — Daily practice files, step-by-step logic labs, and upcoming JS algorithms.
 
 ---
 
