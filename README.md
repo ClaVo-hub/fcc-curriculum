@@ -7,7 +7,7 @@ Welcome to the central repository tracking my progress through the **freeCodeCam
 ## Current Focus
 
 - **Active Course:** JavaScript Algorithms and Data Structures (Beta)
-- **Current Milestone:** JavaScript Fundamentals Review (Step 20/33)
+- **Current Milestone:** JavaScript Form Validation (Step 01/104)
 - **Started JS Course:** 01 August 2026
 
 ---
@@ -27,6 +27,16 @@ Welcome to the central repository tracking my progress through the **freeCodeCam
 - [Book Inventory App](01-responsive-web-design/certification-projects/book-inventory-app/) - Colorful Book Inventory table with span elements used to rate each Book.
 - [Technical Documentation](01-responsive-web-design/certification-projects/technical-documentation/) – A multi-section, highly structured technical guide.
 - [Product Landing Page](01-responsive-web-design/certification-projects/product-landing-page/) – A clean, accessible page celebrating an inspiring figure using CSS flip card for pricing packages, CSS Flexbox and Grid and some hover effects.
+
+### 2. JavaScript Algorithms and Data Structures
+
+- **Status:** 75% Complete
+- **Completion Date:** In progress
+- **Skills Learned:** JavaScript fundamentals, loops and arrays, callbacks and higher-order functions, DOM manipulation and Web APIs, accessibility (ARIA), debugging and dev tools, and regular expressions.
+
+#### Certification Projects:
+
+- [Markdown to HTML Converter](02-javascript/0-certification-projects/md-to-html-converter/) - A live Markdown parser built with regular expressions that shows raw HTML and a rendered preview as you type, with copy, download, fullscreen, a word counter and a dark mode toggle.
 
 ---
 
