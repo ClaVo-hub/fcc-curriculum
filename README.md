@@ -36,7 +36,7 @@ Welcome to the central repository tracking my progress through the **freeCodeCam
 
 #### Certification Projects:
 
-- [Markdown to HTML Converter](02-javascript/0-certification-projects/md-to-html-converter/) ([Live demo](https://clavo-hub.github.io/fcc-curriculum/02-javascript/0-certification-projects/md-to-html-converter/))- A live Markdown parser built with regular expressions that shows raw HTML and a rendered preview as you type, with copy, download, fullscreen, a word counter and a dark mode toggle.
+- [Markdown to HTML Converter](02-javascript/0-certification-projects/md-to-html-converter/) ([Live demo](https://clavo-hub.github.io/fcc-curriculum/02-javascript/0-certification-projects/md-to-html-converter/)) - A live Markdown parser built with regular expressions that shows raw HTML and a rendered preview as you type, with copy, download, fullscreen, a word counter and a dark mode toggle.
 
 ---
 

@@ -1,0 +1,169 @@
+:root {
+  --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+  --panel-glass: rgba(30, 41, 59, 0.7);
+  --border-glass: rgba(255, 255, 255, 0.08);
+  --accent-purple: #f1f1f1;
+  --success-green: #10b981;
+  --error-red: #ef4444;
+}
+
+body {
+  margin: 0;
+  padding: 2rem 1rem;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background: var(--bg-gradient);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #f1f5f9;
+}
+
+#form {
+  background: var(--panel-glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-glass);
+  padding: 2.5rem;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 550px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+#form h1,
+#form h2 {
+  text-align: center;
+  margin-top: 0;
+  background: linear-gradient(to right, #cfced1, var(--accent-purple));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+fieldset {
+  margin: 10px;
+}
+
+fieldset,
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  margin: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  background: rgba(15, 23, 42, 0.6);
+  border: 2px solid var(--border-glass);
+  padding: 0.8rem;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 1rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+input:focus,
+textarea:focus,
+fieldset:focus-within {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(129, 140, 248, 0.2);
+}
+
+#complaints-group div {
+  padding-bottom: 10px;
+}
+
+#solutions-group label {
+  margin-right: 50px;
+}
+
+#complaint-description-container,
+#solution-description-container {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+#complaint-description-container textarea,
+#solution-description-container textarea {
+  display: block;
+  width: 100%;
+  min-height: 100px;
+  box-sizing: border-box;
+}
+
+#btn-container {
+  margin-left: 10px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 0.3s ease;
+}
+
+.modal-card {
+  background: #1e293b;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  transform: scale(0.9);
+  animation: modalEntrance 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.modal-card h3 {
+  margin: 1rem 0 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.modal-text {
+  color: #94a3b8;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.submit-btn,
+.modal-btn {
+  background: #8f8f91;
+  color: #000;
+  border: none;
+  padding: 0.6rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s transform 0.2s ease;
+}
+
+.submit-btn:hover,
+.modal-btn:hover {
+  background: var(--accent-purple);
+  transform: translateY(-1px);
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Entrance Keyframes */
+@keyframes modalEntrance {
+  to {
+    transform: scale(1);
+  }
+}
