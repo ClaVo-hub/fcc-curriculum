@@ -6,7 +6,7 @@ A premium, client-side validation layout deck engineered using HTML5 semantic el
 
 ## Live Demo
 
-[View Live Application Deployment Hosted via GitHub Pages](https://github.io)
+[Customer Complaint Form- Live View](https://clavo-hub.github.io/fcc-curriculum/02-javascript/08-form-validation/lab-cust-complaint-form/)
 
 ## Features Developed
 
