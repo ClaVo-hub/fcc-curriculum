@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom HTMLMediaElement Player</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="player-card">
+      <h2>Synthwave Practice Track</h2>
+      <p class="subtitle">HTMLMediaElement API Sandbox</p>
+
+      <!-- Hidden audio element-->
+      <audio
+        id="audio-track"
+        src="https://upload.wikimedia.org/wikipedia/commons/8/8e/FDP_Stupid_Audio_Trainwreck_Ep_2_%28final%29_%28IA_FDPStupidAudioTrainwreckEp2final%29.mp3?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+      ></audio>
+
+      <!-- Progress Bar with timestamps -->
+      <div class="progress-container">
+        <span id="current-time">0:00</span>
+        <input type="range" id="seek-slider" min="0" max="100" value="0" />
+        <span id="total-duration">0:00</span>
+      </div>
+
+      <!-- main playback controls-->
+      <div class="controls-row">
+        <button id="rewind-btn" title="Rewind 5s" aria-label="Rewind 5 seconds">
+          <svg
+            xmlns="http://w3.org"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polygon points="11 19 2 12 11 5 11 19"></polygon>
+            <polygon points="22 19 13 12 22 5 22 19"></polygon>
+          </svg>
+        </button>
+
+        <button
+          id="play-pause-btn"
+          class="primary-btn"
+          aria-label="Play or Pause"
+        >
+          <svg xmlns="http://w3.org" viewBox="0 0 24 24" fill="currentColor">
+            <polygon points="6 3 20 12 6 21 6 3"></polygon>
+          </svg>
+        </button>
+
+        <button id="stop-btn" title="Stop" aria-label="Stop">
+          <svg xmlns="http://w3.org" viewBox="0 0 24 24" fill="currentColor">
+            <rect x="6" y="6" width="12" height="12" rx="1"></rect>
+          </svg>
+        </button>
+
+        <button
+          id="forward-btn"
+          title="Forward 5s"
+          aria-label="Forward 5 seconds"
+        >
+          <svg
+            xmlns="http://w3.org"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polygon points="13 19 22 12 13 5 13 19"></polygon>
+            <polygon points="2 19 11 12 2 5 2 19"></polygon>
+          </svg>
+        </button>
+      </div>
+
+      <!--video & speed control-->
+      <div class="extras-row">
+        <div class="control-group">
+          <button id="mute-btn" aria-label="Mute or Unmute">
+            <svg
+              xmlns="http://w3.org"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+              <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+              <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+            </svg>
+          </button>
+          <input
+            type="range"
+            id="volume-slider"
+            min="0"
+            max="1"
+            step="0.05"
+            value="1"
+          />
+        </div>
+
+        <button id="speed-btn" class="speed-pill">1x</button>
+      </div>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
