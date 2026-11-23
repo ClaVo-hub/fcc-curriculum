@@ -32,11 +32,16 @@ Welcome to the central repository tracking my progress through the **freeCodeCam
 
 - **Status:** 75% Complete
 - **Completion Date:** In progress
-- **Skills Learned:** JavaScript fundamentals, loops and arrays, callbacks and higher-order functions, DOM manipulation and Web APIs, accessibility (ARIA), debugging and dev tools, and regular expressions.
+- **Skills Learned:** JavaScript fundamentals, loops and arrays, callbacks and higher-order functions, DOM manipulation and Web APIs, accessibility (ARIA), debugging and dev tools, regular expressions, Media API's.
+
+#### Own Practice Projects
+
+- [Music Player](02-javascript/10-video-and-audio-events/own-custom-music-player/) ([Live Demo](https://clavo-hub.github.io/fcc-curriculum/02-javascript/10-video-and-audio-events/own-custom-music-player/)) - A custom audio player built with the HTML5 Audio API and locally stored MP3 tracks, featuring a 5-track interactive playlist, album art display, play/pause/stop controls, 5s rewind and forward skipping, a real-time seek bar, volume/mute controls, and a playback status indicator.
 
 #### Certification Projects:
 
 - [Markdown to HTML Converter](02-javascript/0-certification-projects/md-to-html-converter/) ([Live demo](https://clavo-hub.github.io/fcc-curriculum/02-javascript/0-certification-projects/md-to-html-converter/)) - A live Markdown parser built with regular expressions that shows raw HTML and a rendered preview as you type, with copy, download, fullscreen, a word counter and a dark mode toggle.
+- [Basic Drum Machine](02-javascript/0-certification-projects/drum-machine/) ([Live demo](https://clavo-hub.github.io/fcc-curriculum/02-javascript/0-certification-projects/drum-machine/)) - An interactive 9-pad drum machine (`Q`, `W`, `E`, `A`, `S`, `D`, `Z`, `X`, `C`) built with JavaScript and HTML5 Audio that triggers percussion sounds via pad clicks or keyboard presses.
 
 ---
 
