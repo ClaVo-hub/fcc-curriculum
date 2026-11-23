@@ -52,14 +52,14 @@ body {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #475569;
+  background-color: #475569;
   transition:
-    background 0.3s,
+    background-color 0.3s,
     box-shadow 0.3s;
 }
 
 .status-dot.playing {
-  background: #7dd3fc;
+  background-color: #7dd3fc;
   box-shadow: 0 0 8px #7dd3fc;
 }
 
@@ -307,45 +307,6 @@ button:focus-visible {
   min-width: 40px;
   text-align: right;
   font-variant-numeric: tabular-nums;
-}
-
-/* Segmented Speed Selector */
-.speed-section {
-  padding-top: 1.25rem;
-}
-
-.speed-label {
-  display: block;
-  font-size: 0.82rem;
-  color: #94a3b8;
-  margin-bottom: 0.75rem;
-}
-
-.speed-group {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.5rem;
-  background: #14171c;
-  padding: 0.35rem;
-  border-radius: 999px;
-}
-
-.speed-option {
-  background: transparent;
-  color: #94a3b8;
-  padding: 0.5rem;
-  border-radius: 999px;
-  font-size: 0.85rem;
-  font-weight: 600;
-}
-
-.speed-option:hover {
-  color: #f8fafc;
-}
-
-.speed-option.active {
-  background: #2a2f3a;
-  color: #f8fafc;
 }
 
 /* Playlist Card */
